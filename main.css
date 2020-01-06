@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Dandelion;
+  src: url("Dandelion.ttf") format("opentype");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bgimg {
+  height: 100%;
+  background-image: url('baby-tree.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.topleft {
+  position: absolute;
+  margin: 20px;
+  font-family: Dandelion;
+  font-size: 60px;
+  font-weight: bold;
+  color: #00aba9;
+}
+
+.middle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Source Sans Pro;
+}
+
+.content {
+  font-variant: small-caps;
+  font-size: 48px;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s linear;
+}
+
+.email:hover {
+  color: #00aba9;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
